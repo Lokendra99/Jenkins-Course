@@ -28,7 +28,7 @@ pipeline {
         stage("Complete"){
             steps {
                 dir("simple-java-maven-app") {
-                    echo "mvn test done"
+                    echo "mvn test done YESS"
                 }
             }
         }
